@@ -1,0 +1,281 @@
+body,
+.button-n,
+.select-n,
+.rulings-item-date {
+    font-family: "fira mono medium";
+    font-style: normal;
+    color: #fbf1c7;
+}
+
+.button-n,
+.select-n {
+    background-color: #282828;
+    background-image: none !important;
+    color: #fbf1c7;
+    font-size: 80%;
+}
+
+#main {
+    background-color: #fbf1c7;
+}
+
+#header {
+    background-color: #3c3836;
+}
+
+.search-info,
+.search-controls {
+    background: #d5c4a1;
+}
+
+.search-summary-english {
+    color: #ebdbb2;
+}
+
+.search-info strong,
+.search-controls label {
+    color: #b16286;
+}
+
+
+.placeholder-inner {
+    text-align: center;
+    margin: 0 auto;
+    color: #a89984
+}
+
+.button-n,
+.select-n {
+    background-color: #282828;
+    background-image: none !important;
+    color: #fbf1c7;
+}
+
+.button-n.disabled,
+.select-n.disable {
+    background-color: #d5c4a1;
+    background-image: none !important;
+}
+
+.button-n b,
+.select-n b {
+    font-weight: normal;
+}
+
+.header-logo path {
+    display: none;
+}
+
+/* card grid view */
+.card-grid-inner {
+    max-width: 2000px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card-grid-item {
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: avoid;
+    position: relative;
+    width: 330px;
+    display: block;
+    margin-bottom: 20px;
+}
+.card-grid-item.flexbox-spacer {
+    margin: 0 !important;
+    height: 1px
+}
+
+
+/* CARD PROFILE */
+.card-profile {
+    background-color: #504945;
+    border-bottom: none;
+}
+
+.card-text {
+    background: #3c3836;
+    border: none !important;
+    color: #ebdbb2;
+    font-family: "MSPlantin";
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.card-text-card-name,
+.card-text-type-line {
+    font-family: "Beleren" !important;
+}
+
+.card-text-type-line {
+    font-size: 90%;
+}
+
+.card-text-watermark a,
+.card-text-artist a,
+.card-text-storyspotlight a {
+    color: #d79921;
+}
+
+.card-text-title,
+.card-text-box,
+.card-text-type-line,
+.card-text-stats,
+.card-text-watermark,
+.card-text-artist,
+.card-text-storyspotlight {
+    /* border-bottom: none; */
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.card-text-flavor {
+    color: #d5c4a1;
+    font-size: 13px;
+}
+
+.card-text-stats {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.card-text-storyspotlight {
+    color: #d79921
+}
+
+.prints-current-set {
+    background: #3c3836;
+}
+
+.prints-current-set-name {
+    font-size: 16px;
+    color: #83a598;
+}
+
+
+.prints-current-set:hover,
+.prints-current-set:active,
+.prints-current-set:focus {
+    background: #282828;
+}
+
+.prints-table {
+    background: #3c3836;
+    border: 0px;
+    font-size: 85%;
+}
+
+.prints-table thead tr {
+    background: none;
+}
+
+.prints-table td > span,
+.prints-table td > a {
+    color: #458588;
+}
+
+.prints-table tbody tr:hover {
+    background: #282828
+}
+
+.prints-table tbody tr {
+    border: none;
+}
+
+.prints-table tbody tr:last-child {
+    border: none;
+}
+
+.card-legality {
+    border-top: none;
+}
+
+.card-legality-row {
+    padding: 0 2px 0 10px !important;
+}
+
+.card-legality dt {
+    font-size: 9px;
+}
+
+.card-legality dd.legal {
+    background-color: #98971a;
+    border: 1px solid #b8bb26;
+}
+
+.card-legality dd.banned {
+    background-color: #cc241d;
+    border: 1px solid #fb4934;
+}
+
+.card-legality dd.restricted {
+    background-color: #458588;
+}
+
+.card-legality dd.not-legal {
+    background-color: #665c54;
+    border: 1px solid #928374;
+}
+
+
+.currency-usd {
+    color: #458588 !important;
+}
+
+.currency-eur {
+    color: #b16286 !important;
+}
+
+.currency-tix {
+    color: #d65d0e !important;
+}
+
+/* TOOLBOX LINKS */
+.toolbox {
+    background-color: #665c54;
+    border: none;
+}
+
+.toolbox-column {
+    margin-right: 30px;
+    margin-left: 30px;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 500px;
+    align-content: center;
+}
+
+/* syntax */
+.reference-block {
+    background-color: #504945;
+}
+.reference-jump {
+    background-color: #665c54;
+}
+
+/* RULING */
+.rulings {
+    background-color: #d65d0e;
+    color: #282828;
+    border: none;
+}
+
+@media screen and (min-width: 765px) {
+    .rulings-column {
+        width: 100%;
+        padding: 0 0 0 0
+    }
+}
+
+.rulings-item-date {
+    font-size: 80%;
+    color: #3c3939;
+}
+
+.rulings a {
+    color: #3c3939;
+}
